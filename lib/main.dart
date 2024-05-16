@@ -1,50 +1,10 @@
-/*
-import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: InAppWebViewPage(),
-    );
-  }
-}
-
-class InAppWebViewPage extends StatefulWidget {
-  @override
-  _InAppWebViewPageState createState() => _InAppWebViewPageState();
-}
-
-class _InAppWebViewPageState extends State<InAppWebViewPage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('InAppWebView Example'),
-      ),
-      body: Container(
-        child: InAppWebView(
-          initialUrlRequest: URLRequest(url: WebUri("https://map.kakao.com/?nil_profile=title&nil_src=local")),
-        ),
-      ),
-    );
-  }
-}
-*/
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:csv/csv.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:untitled/src/Map2Sreen.dart';
-import 'package:untitled/src/MapScreen.dart';
+import 'package:login_app_project/src/Map2Sreen.dart';
+import 'package:login_app_project/src/MapScreen.dart';
 //import 'package:flutter_kakao_map_sample/src/home.dart';
 
 InAppLocalhostServer server = InAppLocalhostServer(port: 8080);
